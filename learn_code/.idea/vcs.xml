@@ -2,5 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ByteDance/go-by-example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ByteDance/go-project-example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ByteDance/go-project-example2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ByteDance/go-project-example_mian" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/document/Object/struct" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/document/fundamental/Structure/Struct_Obj/struct" vcs="Git" />
   </component>
 </project>
