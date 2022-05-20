@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"io"
-	"learn_code/NetWork/socket_stick/proto"
+	"learn_code/document/NetWork/socket_stick/proto"
 	"net"
 )
 
