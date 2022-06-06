@@ -15,8 +15,8 @@ func add() {
 	wg.Done()
 }
 func main() {
-	wg.Add(2)
-	go add()
+	wg.Add(2) // 增加2个goroutine
+	go add()  // 启动一个goroutine
 	go add()
 	wg.Wait()
 	fmt.Println(x)
