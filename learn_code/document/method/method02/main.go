@@ -11,8 +11,8 @@ type Manager struct {
 	User
 }
 
-func (self *User) ToString() string { // receiver = &(Manager.User)
-	return fmt.Sprintf("User: %p, %v", self, self)
+func (self *User) ToString() string { // receiver = &(Manager.Use)
+	return fmt.Sprintf("Use: %p, %v", self, self)
 }
 
 func main() {

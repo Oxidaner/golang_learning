@@ -13,7 +13,7 @@ type Manager struct {
 }
 
 func (self *User) ToString() string {
-	return fmt.Sprintf("User: %p, %v", self, self)
+	return fmt.Sprintf("Use: %p, %v", self, self)
 }
 
 func (self *Manager) ToString() string {

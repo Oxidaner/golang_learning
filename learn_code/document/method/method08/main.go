@@ -17,7 +17,7 @@ func (self User) TestValue() {
 
 func main() {
 	u := User{1, "Tom"}
-	fmt.Printf("User: %p, %v\n", &u, u)
+	fmt.Printf("Use: %p, %v\n", &u, u)
 
 	mv := User.TestValue
 	mv(u)
@@ -25,6 +25,6 @@ func main() {
 	mp := (*User).TestPointer
 	mp(&u)
 
-	mp2 := (*User).TestValue // *User 方法集包含 TestValue。签名变为 func TestValue(self *User)。实际依然是 receiver value copy。
+	mp2 := (*User).TestValue // *Use 方法集包含 TestValue。签名变为 func TestValue(self *Use)。实际依然是 receiver value copy。
 	mp2(&u)
 }
