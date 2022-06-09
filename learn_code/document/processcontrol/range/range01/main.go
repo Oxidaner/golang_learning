@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	s := "abc"
+	s := "abc.txt"
 	// 忽略 2nd value，支持 string/array/slice/map。
 	for i := range s {
 		println(s[i])
